@@ -38,7 +38,7 @@ public class GenericWrapper extends Reports{
 				WebDriverManager.edgedriver().setup();
 				driver = new EdgeDriver();
 			}
-			driver.get(url);
+			driver.navigate().to(url);
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 			reportStep("The Browser "+browser+" launched Successfully", "PASS");

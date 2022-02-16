@@ -22,7 +22,7 @@ import utils.Reports;
 public class GenericWrapper extends Reports{
 
 	public RemoteWebDriver driver;
-	// for browser
+	// for all browser
 	public void invokeBrowser(String browser, String url) {
 		try {
 			if(browser.equalsIgnoreCase("chrome")) {

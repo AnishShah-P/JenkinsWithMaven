@@ -319,3 +319,4 @@ public class GenericWrapper extends Reports{
 		System.out.println("Browser closed Successfully");
 	}
 }
+

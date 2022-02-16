@@ -27,7 +27,7 @@ public class ProjectSpecificWrapper extends GenericWrapper{
 	public void loadProp() {
 		prop = new Properties();
 		try {
-			prop.load(new FileInputStream("./properties/english.properties"));
+			prop.load(new FileInputStream("./properties/span.properties"));
 		} catch (Exception e) {		
 		} 
 	}
